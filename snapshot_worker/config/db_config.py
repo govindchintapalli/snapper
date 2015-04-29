@@ -1,0 +1,27 @@
+__author__ = 'govindchintapalli'
+
+config = {'test': {'USER': 'test',
+                   'PASSWORD': 'test',
+                   'NAME': 'test',
+                   'HOST': 'localhost',
+                   'TYPE': 'postgres',
+                   'PORT': '5432'},
+          'test1': {'USER': 'test',
+                    'PASSWORD': 'test',
+                    'NAME': 'test1',
+                    'HOST': 'localhost',
+                    'PORT': '5432',
+                    'TYPE': 'postgres'},
+          'production_server': {'USER': 'housing',
+                                'PASSWORD': 'housing',
+                                'NAME': 'housing_production',
+                                'HOST': '172.31.1.185',
+                                'PORT': '5432',
+                                'TYPE': 'postgres'},
+          'snapshot_server': {'USER': 'housing',
+                              'PASSWORD': 'housing',
+                              'NAME': 'snapshot',
+                              'HOST': 'localhost',
+                              'PORT': '5432',
+                              'TYPE': 'postgres'}
+          }
